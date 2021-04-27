@@ -1,5 +1,6 @@
 const button = document.querySelector("button");
 const output = document.querySelector(".output");
+output.setAttribute("style","color:red; text-align:center; font-size: large;");
 button.addEventListener("click",showOutput);
 function showOutput(){
     const date = new Date();
